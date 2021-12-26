@@ -1,0 +1,173 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+    min-width: 550px;
+    padding: 0;
+    margin: 0;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+  }
+  
+  .container {
+    width: 510px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  
+  .site-header {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo {
+    margin: 10px 0;
+  }
+  
+  .intro-container {
+    width: 510px;
+    min-height: 150px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 15px 0 0;
+    box-sizing: border-box;
+    background-image:url("img/index-background.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+  
+  .title {
+    width: 240px;
+    padding: 0;
+    margin: 0;
+    font-family: "Georgia", "Times", serif;
+    font-size: 27px;
+
+    line-height: 36px;
+    font-weight: 400;
+  }
+  
+  .section-title {
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia", "Times", serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  
+  .title b,
+  .section-title b {
+    font-weight: 400;
+    color: #ff8a00;
+  }
+  
+  .intro p {
+    width: 210px;
+    margin: 8px 0 10px;
+    padding: 0;
+    line-height: 20px;
+  }
+  
+  .popular-products {
+    padding-top: 15px;
+    background-color: #fff3e5;
+    height: 100%;
+  }
+  
+  .products-list {
+    display: flex;
+    padding: 14px 0 0;
+    margin: 0 0 0 -20px;
+    list-style: none;
+  }
+  
+  .product-card {
+    position: relative;
+    width: 132px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 124px 12px 0;
+    font-family: "Georgia", "Times", serif;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-card-new {
+    position: relative;
+    order: -1;
+  }
+  
+  .product-card-new::after {
+    position: absolute;
+    content: "new";
+    width: 158px;
+    height: 35px;
+    top: 0;
+    right: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #ff8a00;
+  }
+  
+  .product-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .product-card h3 {
+    margin: 0 0 2px 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  
+  .product-card p {
+    margin: 0 0 8px 0;
+    padding: 0;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 16px;
+  }
+  
+  .product-card .price {
+    margin-top: auto;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    font-style: normal;
+    color: #ff8a00;
+  }
+  
+  .price del {
+    margin-right: 2px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000000;
+    text-decoration: line-through;
+  }
+  
+  .site-footer {
+    background-color: #847462;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .site-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+  }
